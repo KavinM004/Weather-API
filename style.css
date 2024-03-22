@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/draw1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:100vw;
+    max-height: 100vh;
+
+}
+/*heading*/
+#title{
+    color: rgb(184, 34, 34);
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: rebeccapurple -2px 0, purple   3px 0;
+    font-size: 50px;
+}
+.container{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 400px;     
+    margin-right: 350px;     
+}
+/*input box*/
+#city{
+    border: none;
+    height: 40px;
+    width: 500px;
+    margin: 0;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family:monospace;
+    font-style: italic;
+    background: lightgray; 
+    outline: 1px solid purple;
+    background: linear-gradient(112deg, rgb(253, 252, 254) 0%, rgb(237, 160, 248) 100%);
+}
+/*serach button*/
+#search{
+    border: none;
+    color: rgb(84, 82, 82);
+    height: 35px;
+    margin-left : 10px;
+    font-family:sans-serif;
+    background: lightgray;
+    background: linear-gradient(112deg, rgb(253, 252, 254) 0%, rgb(237, 160, 248) 100%);
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 520;
+    border-radius: 15px;
+    outline: 1px solid purple;
+}
+#search i:hover{
+    color:#379237;
+    transition: ease-in-out;
+}
+.card-header i{
+    color:#EA4335;
+}
+.card-body{  
+    margin-top: 30px;  
+    text-align: center;
+    padding-top: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#location{    
+    color: rgb(142, 131, 136);
+    font-family:'Poppins', sans-serif; 
+    font-size: 30px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+#weather{
+    color: rgb(142, 131, 136);
+    font-family:'Poppins', sans-serif; 
+    font-size: 24px;
+    margin-top: 15px;
+    
+}
+#temperature{
+    color: rgb(142, 131, 136);
+    font-size: 30px;
+    margin: 5px;
+    
+}
